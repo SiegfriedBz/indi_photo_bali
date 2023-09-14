@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { faStreetView, faMugHot } from '@fortawesome/free-solid-svg-icons'
 import { faSun, faMoon } from '@fortawesome/free-regular-svg-icons'
-import logo from '../../public/logos/logo-circle.png'
+import logo from '../../public/logos/logo-indy-nobg-circle.png'
 import tikTokLogo from '../../public/logos/tiktok-logo.png'
 import { motion } from 'framer-motion'
 
@@ -53,7 +53,7 @@ const Navbar = () => {
               alt='logo'
               width={45}
               height={45}
-              className='rounded-full border-4 object-contain shadow-2xl ring-1 ring-teal-400'
+              className='rounded-full object-contain shadow-2xl ring-1 ring-cyan-500'
             />
           </Link>
           <Link href='/' onClick={() => setMobileMenuIsOpen(false)}>
@@ -63,7 +63,7 @@ const Navbar = () => {
               // animate='visible'
               className='text-2xl font-extrabold text-slate-950 hover:text-slate-600 dark:text-white dark:hover:text-slate-200 md:text-3xl'
             >
-              Bali Indi
+              Bali on Indi
             </motion.h1>
           </Link>
         </div>
@@ -166,14 +166,14 @@ const Navbar = () => {
           onClick={() => setMobileMenuIsOpen(false)}
         >
           <div className='flex w-full items-center justify-around pb-1 pt-5'>
-            <a href='https://api.whatsapp.com/send/?phone=6282289427321&text&type=phone_number&app_absent=0'>
+            <a href='https://api.whatsapp.com/send/?phone=628179776293&text&type=phone_number&app_absent=0'>
               <FontAwesomeIcon
                 icon={faWhatsapp}
                 className='text-4xl font-bold text-teal-700 hover:text-teal-500'
               />
             </a>
 
-            <a href='https://www.instagram.com/aquaman_bali/'>
+            <a href='https://www.instagram.com/balion_indi/'>
               <FontAwesomeIcon
                 icon={faInstagram}
                 className='text-4xl text-purple-600 hover:text-purple-500'
@@ -189,7 +189,7 @@ const Navbar = () => {
               />
             </a>
 
-            <a href='https://www.buymeacoffee.com/aquamansurfbali'>
+            <a href='https://www.buymeacoffee.com/balionindi'>
               <FontAwesomeIcon
                 icon={faMugHot}
                 className='text-4xl text-amber-400 hover:text-amber-500'

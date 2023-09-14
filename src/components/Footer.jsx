@@ -1,9 +1,9 @@
-import Image from "next/image"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faWhatsapp, faInstagram } from "@fortawesome/free-brands-svg-icons"
-import { faMugHot } from "@fortawesome/free-solid-svg-icons"
-import swissFlag from "../../public/logos/swiss-flag.svg"
-import tikTokLogo from "../../public/logos/tiktok-logo.png"
+import Image from 'next/image'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faMugHot } from '@fortawesome/free-solid-svg-icons'
+import swissFlag from '../../public/logos/swiss-flag.svg'
+import tikTokLogo from '../../public/logos/tiktok-logo.png'
 
 const Footer = () => {
   return (
@@ -21,16 +21,16 @@ const Footer = () => {
           {/* contact */}
           <div className='flex-start flex flex-col items-start'>
             <address>
-              <h2 className='font-bold'>Indi Bali</h2>
+              <h2 className='font-bold'>Bali on Indi</h2>
               Batu Bolong, Canggu
               <br />
               <span className='text-slate-800 hover:text-slate-500 dark:text-white dark:hover:text-gray-200'>
-                Email:{" "}
-                <a href='mailto:rendy280720gmail.com'>aquamanbali@gmail.com</a>
+                Email:{' '}
+                <a href='mailto:Balionindi@gmail.com'>Balionindi@gmail.com</a>
               </span>
               <br />
               <span className='text-slate-800 hover:text-slate-500 dark:text-white dark:hover:text-gray-200'>
-                Tel: <a href='tel:+6282289427321'>0822-8942-7321</a>
+                Tel: <a href='tel:+628179776293'>+628179776293</a>
               </span>
             </address>
           </div>
@@ -38,14 +38,14 @@ const Footer = () => {
           {/* icons */}
           <div className='my-auto flex flex-col items-center'>
             <div className='flex items-center justify-between'>
-              <a href='https://api.whatsapp.com/send/?phone=6282289427321&text&type=phone_number&app_absent=0'>
+              <a href='https://api.whatsapp.com/send/?phone=628179776293&text&type=phone_number&app_absent=0'>
                 <FontAwesomeIcon
                   icon={faWhatsapp}
                   className='px-2 py-1  text-3xl text-teal-700 hover:text-teal-500'
                 />
               </a>
 
-              <a href='https://www.instagram.com/aquaman_bali/'>
+              <a href='https://www.instagram.com/balion_indi/'>
                 <FontAwesomeIcon
                   icon={faInstagram}
                   className='px-2 py-1 text-3xl text-purple-600 hover:text-purple-500'
@@ -66,7 +66,7 @@ const Footer = () => {
                 />
               </a>
 
-              <a href='https://www.buymeacoffee.com/aquamansurfbali'>
+              <a href='https://www.buymeacoffee.com/balionindi'>
                 <FontAwesomeIcon
                   icon={faMugHot}
                   className='px-2 py-1 text-3xl text-amber-400 hover:text-amber-500'
@@ -77,7 +77,7 @@ const Footer = () => {
         </div>
 
         <h2 className='mb-2 mt-5 text-center text-sm text-slate-800 dark:text-white'>
-          ©2023 Indi Bali
+          ©2023 Bali on Indi
         </h2>
 
         {/* credits */}

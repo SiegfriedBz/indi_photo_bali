@@ -15,7 +15,7 @@ const TOP_IMAGES = [surf01, wedding01, food01, property03]
 export default function Home() {
   const meta = {
     title: 'Bali Indi | Photographer | Home',
-    description: 'Photography & Video | Surf | Food | Wedding | Real-Estate',
+    description: 'Photography & Video | Surf | Food | Wedding | Real Estate',
   }
 
   return (
