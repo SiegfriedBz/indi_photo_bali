@@ -9,7 +9,7 @@ export default function RootLayout(props) {
   const router = useRouter()
 
   const meta = {
-    canonicalUrl: `https://aquaman-surf-bali.vercel.app/${router.asPath}`,
+    canonicalUrl: `https://bali-on-indi-photographer.vercel.app//${router.asPath}`,
     ...customMeta,
   }
 
@@ -19,15 +19,15 @@ export default function RootLayout(props) {
         <meta name='robots' content='follow, index' />
         <meta
           name='keywords'
-          content='Bali Indi, Surf photography, Surf photos, Surf videos, Surf shots, Wedding photography, Wedding photo, Food photography, Food photo, Real estate photography, Real estate photo'
+          content='Bali on Indi, Surf photography, Surf photos, Surf videos, Surf shots, Wedding photography, Wedding photo, Food photography, Food photo, Real estate photography, Real estate photo'
         ></meta>
         <meta
           property='og:url'
-          content={`https://aquaman-surf-bali.vercel.app${router.asPath}`}
+          content={`https://bali-on-indi-photographer.vercel.app/${router.asPath}`}
         />
         <link rel='canonical' href={meta.canonicalUrl} />
-        <meta property='og:site_name' content='Bali Indi Photographer' />
-        <meta property='og:image' content={meta.imageUrl} />
+        <meta property='og:site_name' content='Bali on Indi Photographer' />
+        <meta property='og:image' content={meta.socialImageConf} />
       </Head>
 
       <div className='dark:bg-slate-900 dark:text-gray-200'>

@@ -6,7 +6,7 @@ config.autoAddCss = false
 import generateSocialImage from '../utils/generateSocialImage'
 
 const socialImageConf = generateSocialImage({
-  title: 'Bali Indi Photographer',
+  title: 'Bali on Indi Photographer',
   cloudName: process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME,
   imagePublicID: 'og_social_bali_indi',
 })
