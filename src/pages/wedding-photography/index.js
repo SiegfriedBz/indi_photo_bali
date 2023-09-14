@@ -39,7 +39,7 @@ const Wedding = () => {
         <Carousel>
           {images_top.map((src, i) => {
             return (
-              <div key={i} className={`${styles.embla__slide} h-56`}>
+              <div key={i} className={`${styles.embla__slide} h-64`}>
                 <Image
                   src={src}
                   className='h-full rounded-lg object-contain shadow-lg'
