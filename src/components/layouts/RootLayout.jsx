@@ -9,8 +9,8 @@ export default function RootLayout(props) {
   const router = useRouter()
 
   const meta = {
-    canonicalUrl: `https://bali-on-indi-photographer.vercel.app//${router.asPath}`,
     ...customMeta,
+    canonicalUrl: `https://bali-on-indi-photographer.vercel.app${router.asPath}`,
   }
 
   return (
@@ -23,7 +23,7 @@ export default function RootLayout(props) {
         ></meta>
         <meta
           property='og:url'
-          content={`https://bali-on-indi-photographer.vercel.app/${router.asPath}`}
+          content={`https://bali-on-indi-photographer.vercel.app${router.asPath}`}
         />
         <link rel='canonical' href={meta.canonicalUrl} />
         <meta property='og:site_name' content='Bali on Indi Photographer' />
