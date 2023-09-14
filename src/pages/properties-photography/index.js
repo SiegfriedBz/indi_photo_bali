@@ -12,7 +12,7 @@ const images = [prop01, prop02, prop03, prop04]
 
 const Properties = () => {
   const meta = {
-    title: 'Bali Indi | Photographer | Real Estate',
+    title: 'Bali on Indi | Photographer | Real Estate',
     description: 'Properties Photography | Real Estate Paradise',
   }
 

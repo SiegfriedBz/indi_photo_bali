@@ -7,7 +7,7 @@ const images = []
 
 const About = () => {
   const meta = {
-    title: 'Bali Indi | Photographer | About me',
+    title: 'Bali on Indi | Photographer | About me',
     description: 'Discover My Story',
   }
 

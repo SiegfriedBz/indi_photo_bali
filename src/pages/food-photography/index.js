@@ -11,7 +11,7 @@ const images = [food01, food02, food03, food04]
 
 const Food = () => {
   const meta = {
-    title: 'Bali Indi | Photographer | Food',
+    title: 'Bali on Indi | Photographer | Food',
     description: "Food Photography | Savoring Bali's Flavors",
   }
 

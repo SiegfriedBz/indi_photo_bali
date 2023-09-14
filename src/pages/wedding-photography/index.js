@@ -13,7 +13,7 @@ const images_bottom = [wedding02, wedding04]
 
 const Wedding = () => {
   const meta = {
-    title: 'Bali Indi | Photographer | Pre-Wedding',
+    title: 'Bali on Indi | Photographer | Pre-Wedding',
     description: 'Pre-Wedding Photography | Celebrating Love in Bali',
   }
 

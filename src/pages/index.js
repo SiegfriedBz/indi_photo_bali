@@ -14,7 +14,7 @@ const TOP_IMAGES = [surf01, wedding01, food01, property03]
 
 export default function Home() {
   const meta = {
-    title: 'Bali Indi | Photographer | Home',
+    title: 'Bali on Indi | Photographer | Home',
     description: 'Photography & Video | Surf | Food | Wedding | Real Estate',
   }
 
@@ -40,42 +40,6 @@ export default function Home() {
             >
               A Photographic Journey
             </motion.h2>
-
-            {/* <motion.h2
-            className='max-w-md text-center mb-2 text-2xl font-bold'
-            initial={{ opacity: 0 }}
-            transition={{ delay: 0.5, duration: 3 }}
-            animate={{ opacity: 1 }}
-          >
-            Surfing Waves
-          </motion.h2>
-
-          <motion.h2
-            className='max-w-md text-center mb-2 text-2xl font-bold'
-            initial={{ opacity: 0 }}
-            transition={{ delay: 2, duration: 3 }}
-            animate={{ opacity: 1 }}
-          >
-            Celebrating Love
-          </motion.h2>
-
-          <motion.h2
-            className='max-w-md text-center mb-2 text-2xl font-bold'
-            initial={{ opacity: 0 }}
-            transition={{ delay: 1, duration: 3 }}
-            animate={{ opacity: 1 }}
-          >
-            Savoring Flavors
-          </motion.h2>
-
-          <motion.h2
-            className='max-w-md text-center mb-2 text-2xl font-bold'
-            initial={{ opacity: 0 }}
-            transition={{ delay: 1.5, duration: 3 }}
-            animate={{ opacity: 1 }}
-          >
-            Real Estate
-          </motion.h2> */}
           </div>
 
           <div className='mt-5 flex flex-col items-center justify-between px-2'>
@@ -102,14 +66,6 @@ export default function Home() {
             </motion.div>
 
             <div className='mt-5 flex flex-col items-center justify-between'>
-              {/* <motion.h3
-              className='mb-3 max-w-md bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-center text-2xl font-extrabold text-transparent'
-              initial={{ opacity: 0 }}
-              transition={{ delay: 1.5, duration: 3 }}
-              animate={{ opacity: 1 }}
-            >
-              A Photographic Journey
-            </motion.h3> */}
               <motion.a
                 className='my-3 w-48 rounded-3xl bg-gradient-to-r from-cyan-500 to-blue-500 px-8 py-4 text-center font-extrabold text-white outline-none ring-2 hover:ring-blue-500 active:ring-blue-500'
                 href='https://api.whatsapp.com/send/?phone=628179776293&text&type=phone_number&app_absent=0'
