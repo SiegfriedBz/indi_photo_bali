@@ -29,29 +29,42 @@ export default function Home() {
       <main className='px-2'>
         <section id='hero' className='flex flex-col items-center'>
           <div className='flex flex-col'>
-            <h1 className='bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text pb-2 pt-3 text-center text-3xl font-extrabold text-transparent'>
-              Capturing Bali&apos;s Essence
-            </h1>
-            <motion.h2
-              className='mb-4 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-center text-2xl font-extrabold text-transparent'
+            <motion.h1
               initial={{ opacity: 0 }}
-              transition={{ delay: 0.1, duration: 3 }}
+              transition={{ delay: 0.1, duration: 1.5 }}
+              animate={{ opacity: 1 }}
+              className='bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text pb-2 pt-3 text-center text-3xl font-extrabold text-transparent'
+            >
+              Capturing
+            </motion.h1>
+            <motion.h2
+              className='bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text py-2 text-center text-2xl font-extrabold text-transparent'
+              initial={{ opacity: 0 }}
+              transition={{ delay: 1.25, duration: 1.5 }}
+              animate={{ opacity: 1 }}
+            >
+              Bali&apos;s Essence
+            </motion.h2>
+            <motion.h2
+              className='bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text py-2 text-center text-2xl font-extrabold text-transparent'
+              initial={{ opacity: 0 }}
+              transition={{ delay: 2.25, duration: 1.5 }}
               animate={{ opacity: 1 }}
             >
               A Photographic Journey
             </motion.h2>
           </div>
 
-          <div className='mt-5 flex flex-col items-center justify-between px-2'>
+          <div className='my-5 flex flex-col items-center justify-between px-2'>
             <motion.div
               initial={{ opacity: 0 }}
-              transition={{ delay: 1.25, duration: 3 }}
+              transition={{ delay: 3, duration: 4 }}
               animate={{ opacity: 1 }}
             >
               <Carousel>
                 {TOP_IMAGES.map((src, i) => {
                   return (
-                    <div key={i} className={`${styles.embla__slide} h-56`}>
+                    <div key={i} className={`${styles.embla__slide} h-64`}>
                       <Image
                         src={src}
                         className='h-full rounded-lg object-cover shadow-lg'
@@ -65,12 +78,14 @@ export default function Home() {
               </Carousel>
             </motion.div>
 
-            <div className='mt-5 flex flex-col items-center justify-between'>
+            <hr className='mx-5 my-2 bg-slate-950' />
+
+            <div className='mb-1 mt-5 flex flex-col items-center justify-between'>
               <motion.a
-                className='my-3 w-48 rounded-3xl bg-gradient-to-r from-cyan-500 to-blue-500 px-8 py-4 text-center font-extrabold text-white outline-none ring-2 hover:ring-blue-500 active:ring-blue-500'
+                className='w-48 rounded-3xl bg-gradient-to-r from-cyan-500 to-blue-500 px-8 py-4 text-center font-extrabold text-white outline-none ring-2 hover:ring-blue-500 active:ring-blue-500'
                 href='https://api.whatsapp.com/send/?phone=628179776293&text&type=phone_number&app_absent=0'
                 initial={{ opacity: 0 }}
-                transition={{ delay: 2.75, duration: 3 }}
+                transition={{ delay: 4, duration: 3 }}
                 animate={{ opacity: 1 }}
               >
                 Contact
@@ -79,7 +94,12 @@ export default function Home() {
           </div>
         </section>
 
-        <hr className='mx-5 my-5 bg-slate-950' />
+        <motion.hr
+          initial={{ opacity: 0 }}
+          transition={{ delay: 5, duration: 3 }}
+          animate={{ opacity: 1 }}
+          className='mx-5 my-5 bg-slate-950'
+        />
 
         <section
           id='about-me-short'
