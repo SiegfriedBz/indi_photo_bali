@@ -11,7 +11,7 @@ const images = [surf01, surf02, surf03, surf04]
 
 const Surf = () => {
   const meta = {
-    title: 'Bali Indi | Photographer | Surf',
+    title: 'Bali on Indi | Photographer | Surf',
     description: 'Surf Photography & Video | Riding the Waves',
   }
 
