@@ -58,7 +58,7 @@ export default function Home() {
           <div className='my-5 flex flex-col items-center justify-between px-2'>
             <motion.div
               initial={{ opacity: 0 }}
-              transition={{ delay: 3, duration: 4 }}
+              transition={{ delay: 3.25, duration: 4 }}
               animate={{ opacity: 1 }}
             >
               <Carousel>
@@ -85,7 +85,7 @@ export default function Home() {
                 className='w-48 rounded-3xl bg-gradient-to-r from-cyan-500 to-blue-500 px-8 py-4 text-center font-extrabold text-white outline-none ring-2 hover:ring-blue-500 active:ring-blue-500'
                 href='https://api.whatsapp.com/send/?phone=628179776293&text&type=phone_number&app_absent=0'
                 initial={{ opacity: 0 }}
-                transition={{ delay: 4, duration: 3 }}
+                transition={{ delay: 4.25, duration: 3 }}
                 animate={{ opacity: 1 }}
               >
                 Contact
@@ -96,7 +96,7 @@ export default function Home() {
 
         <motion.hr
           initial={{ opacity: 0 }}
-          transition={{ delay: 5, duration: 3 }}
+          transition={{ delay: 5.25, duration: 3 }}
           animate={{ opacity: 1 }}
           className='mx-5 my-5 bg-slate-950'
         />
