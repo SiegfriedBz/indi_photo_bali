@@ -33,7 +33,7 @@ const About = () => {
           <Carousel>
             {images?.map((src, i) => {
               return (
-                <div key={i} className={`${styles.embla__slide} h-52`}>
+                <div key={i} className={`${styles.embla__slide} h-64`}>
                   <Image
                     src={src}
                     alt='Indi'
