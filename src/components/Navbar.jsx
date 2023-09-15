@@ -168,7 +168,7 @@ const Navbar = () => {
           <div className='flex w-full items-center justify-around pb-1 pt-5'>
             <a
               href='https://api.whatsapp.com/send/?phone=628179776293&text&type=phone_number&app_absent=0'
-              target={'_blank'}
+              target='_blank'
             >
               <FontAwesomeIcon
                 icon={faWhatsapp}
@@ -176,14 +176,14 @@ const Navbar = () => {
               />
             </a>
 
-            <a href='https://www.instagram.com/balion_indi/' target={'_blank'}>
+            <a href='https://www.instagram.com/balion_indi/' target='_blank'>
               <FontAwesomeIcon
                 icon={faInstagram}
                 className='text-4xl text-purple-600 hover:text-purple-500'
               />
             </a>
 
-            <a href='https://www.tiktok.com/@aquamanbali' target={'_blank'}>
+            <a href='https://www.tiktok.com/@aquamanbali' target='_blank'>
               <Image
                 src={tikTokLogo}
                 width={45}
@@ -192,7 +192,7 @@ const Navbar = () => {
               />
             </a>
 
-            <a href='https://www.buymeacoffee.com/balionindi' target={'_blank'}>
+            <a href='https://www.buymeacoffee.com/balionindi' target='_blank'>
               <FontAwesomeIcon
                 icon={faMugHot}
                 className='text-4xl text-amber-400 hover:text-amber-500'
